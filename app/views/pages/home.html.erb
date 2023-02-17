@@ -1,0 +1,28 @@
+
+
+<% if current_user %>
+	<p> hello <%= current_user.email %> </p>
+	<p> Logged in as [<%= current_user.role %>] </p>
+
+
+	<% if current_user.HR? %>
+		<!-- <%= link_to "Login", new_user_session_path %>  --> (add, update, delete, show, change pwd, logout(employees))
+	<% elsif current_user.Admin? %>
+		<!-- <%= link_to "sign_up", new_user_registration_path %>  --> (add job, edit job, edituser, search emp, see applicant, logout )
+	<% elsif current_user.Manager? %>
+		<!-- <%= link_to "sign_up", new_user_registration_path %>  --> (search emp, emp report, logout)
+	<% else %>
+		<!-- <%= link_to "Login", new_user_session_path %>  --> (profile info, edit info, logout)
+	<% end %>
+	
+
+	<%= link_to "sign_out", destroy_user_session_path, 'data-turbo-method': :delete %>
+
+<% else %>
+	<p> you are not signed_in </p>
+	<%= link_to "sign_up", new_user_registration_path %>
+	<br/>
+	<%= link_to "Login", new_user_session_path %>
+<% end %>
+
+

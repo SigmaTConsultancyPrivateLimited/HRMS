@@ -1,0 +1,2 @@
+class JobContract < ApplicationRecord
+end

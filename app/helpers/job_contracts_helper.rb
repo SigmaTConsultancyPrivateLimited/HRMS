@@ -1,0 +1,2 @@
+module JobContractsHelper
+end

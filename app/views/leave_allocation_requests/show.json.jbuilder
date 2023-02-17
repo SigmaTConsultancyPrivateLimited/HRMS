@@ -1,0 +1,1 @@
+json.partial! "leave_allocation_requests/leave_allocation_request", leave_allocation_request: @leave_allocation_request

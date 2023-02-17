@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  employee_id: 1
+  job_role: MyString
+  contract_start_date: 2023-01-24
+  contract_end_date: 2023-01-24
+  shift: MyString
+  status: MyString
+  bond_year: 1
+
+two:
+  employee_id: 1
+  job_role: MyString
+  contract_start_date: 2023-01-24
+  contract_end_date: 2023-01-24
+  shift: MyString
+  status: MyString
+  bond_year: 1

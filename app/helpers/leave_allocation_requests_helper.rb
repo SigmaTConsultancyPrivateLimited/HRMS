@@ -1,0 +1,2 @@
+module LeaveAllocationRequestsHelper
+end

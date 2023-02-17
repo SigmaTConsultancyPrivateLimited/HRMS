@@ -1,0 +1,20 @@
+ActiveAdmin.register Payslip do
+
+  # See permitted parameters documentation:
+  # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
+  #
+  # Uncomment all parameters which should be permitted for assignment
+  #
+    actions :index, :edit, :update, :create, :destroy
+
+  permit_params :employee_id, :salary, :payslip_for_the_month, :paid_days, :Lop, :days, :transaction_date, :transaction_time
+  #
+  # or
+  #
+  # permit_params do
+  #   permitted = [:employee_id, :salary, :payslip_for_the_month, :paid_days, :Lop, :days, :transaction_date, :transaction_time]
+  #   permitted << :other if params[:action] == 'create' && current_user.admin?
+  #   permitted
+  # end
+  
+end

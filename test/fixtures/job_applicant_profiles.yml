@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  employee_id: 1
+  applied_role: MyString
+  total_experience: 1
+  experienced_in: MyString
+  recruiter_name: MyString
+
+two:
+  employee_id: 1
+  applied_role: MyString
+  total_experience: 1
+  experienced_in: MyString
+  recruiter_name: MyString
