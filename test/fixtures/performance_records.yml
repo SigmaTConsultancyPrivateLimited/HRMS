@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  project_name: MyString
+  task: MyString
+  sprint_start_date: 2023-02-22
+  sprint_end_date: 2023-02-22
+  reporting_to: MyString
+  status: MyString
+  current_sign_in_at: 2023-02-22 12:50:20
+  task_type: MyString
+  hours_spent: 2023-02-22 12:50:20
+
+two:
+  project_name: MyString
+  task: MyString
+  sprint_start_date: 2023-02-22
+  sprint_end_date: 2023-02-22
+  reporting_to: MyString
+  status: MyString
+  current_sign_in_at: 2023-02-22 12:50:20
+  task_type: MyString
+  hours_spent: 2023-02-22 12:50:20

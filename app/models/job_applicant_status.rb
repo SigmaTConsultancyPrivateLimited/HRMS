@@ -1,2 +1,0 @@
-class JobApplicantStatus < ApplicationRecord
-end

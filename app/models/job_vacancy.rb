@@ -1,0 +1,2 @@
+class JobVacancy < ApplicationRecord
+end

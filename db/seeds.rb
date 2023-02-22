@@ -8,27 +8,28 @@ AdminUser.create(email: "admin@example.com", password: "password", password_conf
 #   { name: 'Trying Stuff Until it Works' }
 # ])
 
-Employee.destroy_all 
+Emmployee.destroy_all 
 
 10.times do |x|
 
-	Employee.create!([{
+	Emmployee.create!([{
 	  first_name: "sfmsdnfkj",
 	  last_name: "dfdg",
-	  address: "Adfsdsf",
+	  local_address: "Adfsdsf",
 	  email: "ad@gmail.com"
 	},
 	{
 	  first_name: "sfmsdnfkj",
 	  last_name: "dfdg",
-	  address: "dfdds",
+	  local_address: "dfdds",
 	  email: "agdfd@gmail.com"
 	},
 	{
 	 first_name: "sfmsdfgdfnfkj",
 	  last_name: "dfsefesfdg",
-	  address: "dfddsdfgds",
+	  local_address: "dfddsdfgds",
 	  email: "agdfdsfdgd@gmail.com"
 	}])
-	p "Created #{Employee.count} Employees"
+	p "Created #{Emmployee.count} Employees"
 end
+AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password') if Rails.env.development?

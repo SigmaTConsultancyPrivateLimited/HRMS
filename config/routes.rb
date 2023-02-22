@@ -1,23 +1,27 @@
 Rails.application.routes.draw do
-  resources :reports
-  resources :payslips
-  resources :leave_statuses
-  resources :leave_allocation_requests
-  resources :job_contracts
-  resources :job_applicant_statuses
-  resources :job_applicant_profiles
-  resources :contracts
-  resources :employees
-  resources :books
-  
-  #active admin devise
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
+  resources :departments
+  resources :payrolls
+  resources :leave_reports
+  resources :attendances
+  resources :contract_details
+  resources :trainings
+  resources :projects
+  resources :job_vacancies
+  resources :interviews
+  resources :performance_records
+  resources :emmployees
+  resources :my_controllers
+  resources :samples
+ 
+  # resources :books
   
-  #devise login page
+  
+  # #devise login page
   root "pages#home"
-  devise_for :users
+  #  # devise_for :users
   
 
-  # root "pages#leaveapprove"
+  # # root "pages#leaveapprove"
 end

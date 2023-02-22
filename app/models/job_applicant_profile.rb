@@ -1,2 +1,0 @@
-class JobApplicantProfile < ApplicationRecord
-end

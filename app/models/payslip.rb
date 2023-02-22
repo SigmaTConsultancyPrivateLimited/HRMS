@@ -1,2 +1,0 @@
-class Payslip < ApplicationRecord
-end

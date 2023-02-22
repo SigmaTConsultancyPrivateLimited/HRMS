@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  candidate_name: MyString
+  applied_role: MyString
+  interview_time: 2023-02-22 12:52:48
+  date: 2023-02-22
+  status: MyString
+  comments: MyString
+
+two:
+  candidate_name: MyString
+  applied_role: MyString
+  interview_time: 2023-02-22 12:52:48
+  date: 2023-02-22
+  status: MyString
+  comments: MyString

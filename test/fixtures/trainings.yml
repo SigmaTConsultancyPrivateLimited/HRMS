@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  training_name: MyString
+  batch: 1
+  employee_name: MyString
+  feedback: MyString
+
+two:
+  training_name: MyString
+  batch: 1
+  employee_name: MyString
+  feedback: MyString

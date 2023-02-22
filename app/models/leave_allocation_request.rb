@@ -1,2 +1,0 @@
-class LeaveAllocationRequest < ApplicationRecord
-end

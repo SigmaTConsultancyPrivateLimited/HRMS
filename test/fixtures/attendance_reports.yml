@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  employee_id: 1
+  employee_name: MyString
+  attendance_by: MyString
+  shift: MyString
+  in-time: 2023-02-22 13:04:52
+  out-time: 2023-02-22 13:04:52
+  status: MyString
+
+two:
+  employee_id: 1
+  employee_name: MyString
+  attendance_by: MyString
+  shift: MyString
+  in-time: 2023-02-22 13:04:52
+  out-time: 2023-02-22 13:04:52
+  status: MyString

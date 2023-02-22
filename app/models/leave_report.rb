@@ -1,0 +1,2 @@
+class LeaveReport < ApplicationRecord
+end
