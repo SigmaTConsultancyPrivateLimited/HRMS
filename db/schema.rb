@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_02_22_081643) do
+ActiveRecord::Schema[7.0].define(version: 2023_03_03_131552) do
   create_table "aas", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -69,6 +69,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_02_22_081643) do
     t.integer "bond_year"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "emmployee_id"
   end
 
   create_table "departments", force: :cascade do |t|
@@ -103,7 +104,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_02_22_081643) do
     t.string "bank_name"
     t.string "branch_name"
     t.string "ifsc_code"
-    t.string "employee_id"
     t.string "department"
     t.string "designation"
     t.date "date_of_joining"
@@ -111,6 +111,9 @@ ActiveRecord::Schema[7.0].define(version: 2023_02_22_081643) do
     t.string "shift"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "training_id"
+    t.integer "department_id"
+    t.integer "project_id"
   end
 
   create_table "employees", force: :cascade do |t|
@@ -226,6 +229,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_02_22_081643) do
     t.time "transaction_time"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "emmployee_id"
   end
 
   create_table "payslips", force: :cascade do |t|
@@ -253,6 +257,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_02_22_081643) do
     t.datetime "hours_spent"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "emmployee_id"
   end
 
   create_table "projects", force: :cascade do |t|
