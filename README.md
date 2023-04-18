@@ -27,3 +27,4 @@ Things you may want to cover:
 # hrms-rails-angular
 # mixed
 # HRMSHRMS
+# HRMS
