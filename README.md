@@ -24,7 +24,7 @@ Things you may want to cover:
 * ...
 git - v2.13
 NodeJS - version 6
-npm - v6 
+npm - v12 
 
 Running in Dev Environment:
 1) cd YOUR_APPLICATION
