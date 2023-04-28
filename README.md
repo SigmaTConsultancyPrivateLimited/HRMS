@@ -28,6 +28,7 @@ npm - v6
 
 Running in Dev Environment:
 1) cd YOUR_APPLICATION
+Go to the folder ngx-dash/ngx-admin
 2) npm install
 3) npm start
 
